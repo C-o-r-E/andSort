@@ -11,8 +11,8 @@ import javax.microedition.khronos.opengles.GL11;
  * They are useful to layer certain objects above others.
  */
 public class Layer {
-	public static final int MAX_SPRITES = 100;
-	public static final int MAX_TEXTS = 100;
+	public static final int MAX_SPRITES = 128;
+	public static final int MAX_TEXTS = 128;
 	public static final int MAX_EMITTERS = 100;
 	
 	private Sprite[] spriteArr = new Sprite[MAX_SPRITES];
